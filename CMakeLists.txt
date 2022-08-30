@@ -8,7 +8,21 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 include(CTest)
 enable_testing()
 
-add_executable(pokemon 
+add_executable(pokemon
+
+interface/interface.cpp
+
+mainmenu/mainmenu.cpp
+
+team/menuteam.cpp
+team/team.cpp
+
+team/attacks/attacks.cpp
+
+team/attacks/attacklist.cpp
+
+tools/tools.cpp
+
 main.cpp
 )
 
